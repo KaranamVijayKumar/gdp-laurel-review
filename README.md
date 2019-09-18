@@ -7,6 +7,12 @@ The Laurel Review is a biannual print magazine seeking submissions of poetry, fi
 
 ## Code
 
-Below is the link to the Code folder in the GitHub: -
+Below is the link to the Code folder: -
 
-< https://github.com/KaranamVijayKumar/gdp-laurel-review/tree/master/Code >
+<https://github.com/KaranamVijayKumar/gdp-laurel-review/tree/master/Code>
+
+## Documentation
+
+Below is the link to the Documentation folder: -
+
+<https://github.com/KaranamVijayKumar/gdp-laurel-review/tree/master/Documentation>
