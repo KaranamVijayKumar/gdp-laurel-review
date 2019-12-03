@@ -7,6 +7,10 @@ The Laurel Review is a biannual print magazine seeking submissions of poetry, fi
 
 ## Final Project Report
 
+Below is the link to Final Project Report
+
+<https://github.com/KaranamVijayKumar/gdp-laurel-review/blob/master/Laurel%20Review%20Final%20Project%20Report.docx>
+
 ## Code
 
 Below is the link to the Code folder: -
