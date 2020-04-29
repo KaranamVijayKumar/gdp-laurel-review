@@ -1,0 +1,58 @@
+#!/usr/bin/env php
+<?php
+/*!
+ * story v0.1
+ * http://arpadolasz.com
+ *
+ * Copyright 2014 Arpad Olasz
+ * All rights reserved.
+ *
+ */
+
+mb_internal_encoding('UTF-8');
+mb_http_output('UTF-8');
+
+if (PHP_SAPI !== 'cli') {
+    die();
+}
+
+// WE skip db config when migrating, seeding
+if (in_array($argv[1], array('migrate', 'seed'))) {
+    define('SKIP_CFG_MERGE', 0);
+}
+
+
+// Include bootstrap
+require __DIR__ . '/start/bootstrap.php';
+
+// Load controller dispatch passing URL routes
+$dispatch = new \Story\Dispatch(require_once(SP.'config/routes.php'));
+
+// full request path
+define('PR', '/');
+
+// Require a CLI path
+if (empty($argv[1])) {
+    die("Please enter a path to the story file.\nExample: " . colorize('php story file.php', 'blue') . "\n");
+}
+
+$argv[1] = str_replace(':', '_', $argv[1]);
+
+// Build path to file
+$file = SP . 'Project/commands/' . str_replace(EXT, '', trim($argv[1], '/')) . EXT;
+
+// Does the file exist?
+if (!is_file($file)) {
+    die("Please enter a valid file path\n");
+}
+
+// Require a valid, safe path
+if (!preg_match('/^[\w\-~\/\.+]{1,600}/', $argv[1])) {
+    die(colorize("Invalid path given", 'red') . "\n");
+}
+
+try {
+    require($file);
+} catch (Exception $e) {
+    \Story\Error::exception($e);
+}

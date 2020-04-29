@@ -1,0 +1,3 @@
+24.107.117.124 [2016-07-30 16:04:14] ERROR "SQLSTATE[HY000]: General error: 2006 MySQL server has gone away [/home/laurelre/app/vendor/wingsline/storyframework/src/Story/DB.php] (167)"
+24.107.117.124 [2016-07-30 16:06:13] ERROR "SQLSTATE[HY000]: General error: 2006 MySQL server has gone away [/home/laurelre/app/vendor/wingsline/storyframework/src/Story/DB.php] (167)"
+ [2016-07-30 16:20:21] ERROR "SQLSTATE[HY000]: General error: 2006 MySQL server has gone away [/home/laurelre/app/vendor/wingsline/storyframework/src/Story/DB.php] (167)"

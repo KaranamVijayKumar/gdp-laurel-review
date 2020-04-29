@@ -1,0 +1,1 @@
+129.82.42.52 [2016-02-20 15:59:25] ERROR "SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction [/home/laurelre/app/vendor/wingsline/storyframework/src/Story/DB.php] (167)"

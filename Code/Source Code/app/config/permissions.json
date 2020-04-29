@@ -1,0 +1,569 @@
+{
+  "pages": {
+    "index": [
+      "indexcontroller"
+    ],
+    "pages": [
+      "pagecontroller"
+    ]
+  },
+  "cart": {
+    "pages": [
+      "cart_index",
+      "manage_cart_index"
+    ],
+    "checkout": [
+      "cart_checkout",
+      "manage_cart_checkout"
+    ],
+    "thankyou": [
+      "cart_thankyou",
+      "manage_cart_thankyou"
+    ],
+    "edit": [
+      "cart_remove",
+      "manage_cart_remove",
+      "cart_emptycart",
+      "manage_cart_emptycart"
+    ]
+  },
+  "issues": {
+    "pages": [
+      "issues_index",
+      "manage_issues_index",
+      "issues_toccontent",
+      "manage_issues_toccontent"
+    ],
+    "order": [
+      "issues_order",
+      "manage_issues_order"
+    ]
+  },
+  "chapbooks": {
+    "pages": [
+      "chapbooks_index",
+      "manage_chapbooks_index",
+      "chapbooks_toccontent",
+      "manage_chapbooks_toccontent"
+    ],
+    "order": [
+      "chapbooks_order",
+      "manage_chapbooks_order"
+    ]
+  },
+  "news": {
+    "pages": [
+      "news_index",
+      "news_show"
+    ]
+  },
+  "newsletter": {
+    "pages": [
+      "newsletter_index",
+      "newsletter_subscribe",
+      "manage_newsletter_subscribe",
+      "newsletter_unsubscribe",
+      "manage_newsletter_unsubscribe"
+    ]
+  },
+  "contact": {
+    "pages": [
+      "contactcontroller",
+      "manage_contactcontroller"
+    ]
+  },
+  "account": {
+    "create": [
+      "account_create",
+      "manage_account_create",
+      "account_activate"
+    ],
+    "dashboard": [
+      "account_dashboard",
+      "manage_account_dashboard",
+      "account_changepassword",
+      "manage_account_changepassword"
+    ],
+    "biography": [
+      "account_biography",
+      "manage_account_biography"
+    ],
+    "email": [
+      "account_email",
+      "manage_account_email"
+    ],
+    "password": [
+      "account_password",
+      "manage_account_password"
+    ],
+    "contact": [
+      "account_contact",
+      "manage_account_contact"
+    ],
+    "delete": [
+      "account_delete",
+      "delete_account_delete"
+    ]
+  },
+  "submissions": {
+    "view": [
+      "submissions_index",
+      "submissions_show",
+      "manage_submissions_index"
+    ],
+    "create": [
+      "submissions_create",
+      "manage_submissions_create"
+    ],
+    "sign": [
+      "submissions_sign",
+      "manage_submissions_sign"
+    ],
+    "withdraw": [
+      "submissions_withdraw",
+      "manage_submissions_withdraw"
+    ]
+  },
+  "subscriptions": {
+    "view": [
+      "subscriptions_index",
+      "subscriptions_show",
+      "manage_subscriptions_index"
+    ],
+    "create": [
+      "subscriptions_create",
+      "manage_subscriptions_create"
+    ],
+    "cancel": [
+      "subscriptions_cancel",
+      "manage_subscriptions_cancel"
+    ]
+  },
+  "admin": {
+    "editor_assets": [
+      "admin_pages_editorindex",
+      "admin_pages_editorsnippetsindex",
+      "admin_files_editorindex",
+      "admin_files_editorcreate",
+      "manage_admin_files_editorcreate",
+      "admin_docs_index"
+    ],
+    "dashboard": [
+      "admin_dashboard"
+    ],
+    "account": {
+      "dashboard": [
+        "admin_account_dashboard",
+        "manage_admin_account_dashboard",
+        "admin_account_dashboard_clear",
+        "admin_account_changepassword",
+        "manage_admin_account_changepassword"
+      ],
+      "biography": [
+        "admin_account_biography",
+        "manage_admin_account_biography"
+      ],
+      "email": [
+        "admin_account_email",
+        "manage_admin_account_email"
+      ],
+      "password": [
+        "admin_account_password",
+        "manage_admin_account_password"
+      ],
+      "contact": [
+        "admin_account_contact",
+        "manage_admin_account_contact"
+      ],
+      "delete": [
+        "admin_account_delete",
+        "delete_admin_account_delete"
+      ]
+    },
+    "submissions": {
+      "accept": [
+        "admin_submissions_accept",
+        "manage_admin_submissions_accept",
+        "admin_submissions_template",
+        "manage_admin_submissions_template"
+      ],
+      "comment": [
+        "manage_admin_submissions_comment"
+      ],
+      "create": [
+        "admin_submissions_create",
+        "manage_admin_submissions_create"
+      ],
+      "download": [
+        "admin_submissions_download",
+        "manage_admin_submissions_download"
+      ],
+      "edit": [
+        "admin_submissions_edit",
+        "manage_admin_submissions_edit"
+      ],
+      "like": [
+        "admin_submissions_like",
+        "manage_admin_submissions_like"
+      ],
+      "send_email": [
+        "admin_submissions_email",
+        "manage_admin_submissions_email"
+      ],
+      "view": [
+        "admin_submissions_index",
+        "admin_submissions_show",
+        "admin_submissions_assets",
+        "admin_submissions_activity"
+      ],
+      "view_author": [
+        "admin_submissions_view_author"
+      ],
+      "export": [
+        "admin_submissions_export",
+        "manage_admin_submissions_export"
+      ],
+      "manage_categories": [
+        "admin_submissions_categories",
+        "admin_submissions_categories_create",
+        "manage_admin_submissions_categories_create",
+        "admin_submissions_categories_edit",
+        "manage_admin_submissions_categories_edit",
+        "admin_submissions_categories_delete",
+        "manage_admin_submissions_categories_delete"
+      ]
+    },
+    "subscriptions": {
+      "view": [
+        "admin_subscriptions_index",
+        "admin_subscriptions_show"
+      ],
+      "create": [
+        "admin_subscriptions_create",
+        "manage_admin_subscriptions_create"
+      ],
+      "edit": [
+        "admin_subscriptions_edit",
+        "manage_admin_subscriptions_edit"
+      ],
+      "delete": [
+        "admin_subscriptions_delete",
+        "manage_admin_subscriptions_delete",
+        "delete_admin_subscriptions_delete"
+      ],
+      "export": [
+        "admin_subscriptions_export",
+        "manage_admin_subscriptions_export"
+      ],
+      "manage_categories": [
+        "admin_subscriptions_categories",
+        "admin_subscriptions_categories_create",
+        "manage_admin_subscriptions_categories_create",
+        "admin_subscriptions_categories_edit",
+        "manage_admin_subscriptions_categories_edit",
+        "admin_subscriptions_categories_delete",
+        "manage_admin_subscriptions_categories_delete"
+      ]
+    },
+    "orders": {
+      "view": [
+        "admin_orders_index"
+      ],
+      "create": [
+        "admin_orders_create",
+        "manage_admin_orders_create"
+      ],
+      "edit": [
+        "admin_orders_edit",
+        "manage_admin_orders_edit"
+      ],
+      "delete": [
+        "admin_orders_delete",
+        "manage_admin_orders_delete"
+      ],
+      "export": [
+        "admin_orders_export",
+        "manage_admin_orders_export"
+      ]
+    },
+    "issues": {
+      "view": [
+        "admin_issues_index",
+        "admin_issues_show"
+      ],
+      "create": [
+        "admin_issues_create",
+        "manage_admin_issues_create"
+      ],
+      "edit": [
+        "admin_issues_edit",
+        "manage_admin_issues_edit",
+        "admin_issues_toc",
+        "manage_admin_issues_toc",
+        "admin_issues_content",
+        "manage_admin_issues_content",
+        "admin_issues_contentedit",
+        "manage_admin_issues_contentedit",
+        "admin_issues_contentcreate",
+        "manage_admin_issues_contentcreate",
+        "delete_admin_issues_contentedit"
+      ],
+      "delete": [
+        "admin_issues_delete",
+        "manage_admin_issues_delete"
+      ]
+    },
+    "chapbooks": {
+      "view": [
+        "admin_chapbooks_index",
+        "admin_chapbooks_show"
+      ],
+      "create": [
+        "admin_chapbooks_create",
+        "manage_admin_chapbooks_create"
+      ],
+      "edit": [
+        "admin_chapbooks_edit",
+        "manage_admin_chapbooks_edit",
+        "admin_chapbooks_toc",
+        "manage_admin_chapbooks_toc",
+        "admin_chapbooks_content",
+        "manage_admin_chapbooks_content",
+        "admin_chapbooks_contentedit",
+        "manage_admin_chapbooks_contentedit",
+        "admin_chapbooks_contentcreate",
+        "manage_admin_chapbooks_contentcreate",
+        "delete_admin_chapbooks_contentedit"
+      ],
+      "delete": [
+        "admin_chapbooks_delete",
+        "manage_admin_chapbooks_delete"
+      ]
+    },
+    "pages": {
+      "view": [
+        "admin_pages_index"
+      ],
+      "create": [
+        "admin_pages_create",
+        "manage_admin_pages_create"
+      ],
+      "edit": [
+        "admin_pages_edit",
+        "manage_admin_pages_edit",
+        "admin_pages_edit_slug",
+        "manage_admin_pages_edit_slug",
+        "admin_pages_edit_title",
+        "manage_admin_pages_edit_title"
+      ],
+      "delete": [
+        "admin_pages_delete",
+        "manage_admin_pages_delete"
+      ]
+    },
+    "snippets": {
+      "view": [
+        "admin_pages_snippets"
+      ],
+      "create": [
+        "admin_pages_snippets_create",
+        "manage_admin_pages_snippets_create"
+      ],
+      "edit": [
+        "admin_pages_snippets_edit",
+        "manage_admin_pages_snippets_edit"
+      ],
+      "delete": [
+        "delete_admin_pages_snippets_delete",
+        "manage_delete_admin_pages_snippets_delete"
+      ]
+    },
+    "files": {
+      "view": [
+        "admin_files_index"
+      ],
+      "upload": [
+        "admin_files_create",
+        "manage_admin_files_create",
+        "admin_files_editorcreate",
+        "manage_admin_files_editorcreate"
+      ],
+      "edit": [
+        "admin_files_edit",
+        "manage_admin_files_edit"
+      ],
+      "delete": [
+        "delete_admin_files_delete",
+        "manage_delete_admin_files_delete"
+      ]
+    },
+    "news": {
+      "view": [
+        "admin_news_index"
+      ],
+      "create": [
+        "admin_news_index_create",
+        "manage_admin_news_index_create"
+      ],
+      "edit": [
+        "admin_news_index_edit",
+        "manage_admin_news_index_edit"
+      ],
+      "delete": [
+        "delete_admin_news_index_delete",
+        "manage_delete_admin_news_index_delete"
+      ]
+    },
+    "newsletter": {
+      "view": [
+        "admin_news_newsletter"
+      ],
+      "create": [
+        "admin_news_newsletter_create",
+        "manage_admin_news_newsletter_create"
+      ],
+      "edit": [
+        "admin_news_newsletter_edit",
+        "manage_admin_news_newsletter_edit"
+      ],
+      "delete": [
+        "delete_admin_news_newsletter_delete",
+        "manage_delete_admin_news_newsletter_delete"
+      ],
+      "subscribers": {
+        "view": [
+          "admin_news_subscribers"
+        ],
+        "create": [
+          "admin_news_subscribers_create",
+          "manage_admin_news_subscribers_create"
+        ],
+        "edit": [
+          "admin_news_subscribers_edit",
+          "manage_admin_news_subscribers_edit"
+        ],
+        "delete": [
+          "delete_admin_news_subscribers_delete",
+          "manage_delete_admin_news_subscribers_delete"
+        ]
+      }
+    },
+    "preferences": {
+      "edit": [
+        "admin_preferences_index",
+        "manage_admin_preferences_index"
+      ]
+    },
+    "templates": {
+      "view": [
+        "admin_templates_index"
+      ],
+      "create": [
+        "admin_templates_create",
+        "manage_admin_templates_create",
+        "admin_templates_item",
+        "manage_admin_templates_item"
+      ],
+      "edit": [
+        "admin_templates_edit",
+        "manage_admin_templates_edit"
+      ],
+      "delete": [
+        "delete_admin_templates_delete"
+      ]
+    },
+    "users": {
+      "view": [
+        "admin_users_index"
+      ],
+      "create": [
+        "admin_users_create",
+        "manage_admin_users_create"
+      ],
+      "edit": [
+        "admin_users_edit",
+        "manage_admin_users_edit"
+      ],
+      "biography": [
+        "admin_users_biography",
+        "manage_admin_users_biography"
+      ],
+      "email": [
+        "admin_users_email",
+        "manage_admin_users_email"
+      ],
+      "password": [
+        "admin_users_password",
+        "manage_admin_users_password"
+      ],
+      "contact": [
+        "admin_users_contact",
+        "manage_admin_users_contact"
+      ],
+      "roles": [
+        "admin_users_roles",
+        "manage_admin_users_roles"
+      ],
+      "delete": [
+        "admin_users_delete",
+        "delete_admin_users_delete"
+      ]
+    },
+    "roles": {
+      "view": [
+        "admin_roles_index"
+      ],
+      "create": [
+        "admin_roles_create",
+        "manage_admin_roles_create"
+      ],
+      "edit": [
+        "admin_roles_edit",
+        "manage_admin_roles_edit"
+      ],
+      "delete": [
+        "admin_roles_delete",
+        "manage_admin_roles_delete"
+      ]
+    },
+    "exporters": {
+      "view": [
+        "admin_exporters_index"
+      ],
+      "create": [
+        "admin_exporters_create",
+        "manage_admin_exporters_create"
+      ],
+      "edit": [
+        "admin_exporters_edit",
+        "manage_admin_exporters_edit"
+      ],
+      "delete": [
+        "admin_exporters_delete",
+        "manage_admin_exporters_delete",
+        "delete_admin_exporters_delete"
+      ]
+    },
+    "backup": {
+      "create": [
+        "admin_backup_index",
+        "manage_admin_backup_index"
+      ],
+      "download": [
+        "admin_backup_download"
+      ],
+      "restore": [
+        "admin_backup_restore"
+      ],
+      "delete": [
+        "admin_backup_delete"
+      ]
+    },
+    "about": [
+      "admin_about"
+    ],
+    "log": [
+      "admin_logs"
+    ]
+  }
+}

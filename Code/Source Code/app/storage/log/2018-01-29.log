@@ -1,0 +1,3 @@
+47.215.27.188 [2018-01-29 19:29:00] ERROR "SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'weekly-feature' for key 'slug' [/home/laurelre/app/vendor/wingsline/storyframework/src/Story/DB.php] (167)"
+47.215.27.188 [2018-01-29 19:29:32] ERROR "SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'weekly-feature' for key 'slug' [/home/laurelre/app/vendor/wingsline/storyframework/src/Story/DB.php] (167)"
+47.215.27.188 [2018-01-29 19:29:50] ERROR "SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'weekly-feature' for key 'slug' [/home/laurelre/app/vendor/wingsline/storyframework/src/Story/DB.php] (167)"

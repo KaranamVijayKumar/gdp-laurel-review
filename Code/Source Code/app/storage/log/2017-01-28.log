@@ -1,0 +1,2 @@
+77.75.78.168 [2017-01-28 01:01:58] ERROR "SQLSTATE[HY000]: General error: 2006 MySQL server has gone away [/home/laurelre/app/vendor/wingsline/storyframework/src/Story/DB.php] (167)"
+108.49.126.201 [2017-01-28 14:29:02] ERROR "SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction [/home/laurelre/app/vendor/wingsline/storyframework/src/Story/DB.php] (167)"

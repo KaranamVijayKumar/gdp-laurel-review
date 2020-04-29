@@ -1,0 +1,1 @@
+ [2019-11-15 02:00:26] ERROR "[2] file_get_contents(): Filename cannot be empty [/home/laurelre/app/vendor/wingsline/storyspamprotector/src/StorySpamProtector/Importers/StopForumSpamImporter.php] (119)"

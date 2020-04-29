@@ -1,0 +1,42 @@
+{
+  "name": "The Laurel Review Default theme",
+  "description": "The Laurel Review Default theme",
+  "version": "3.1",
+  "keywords": [
+    "laurel",
+    "review"
+  ],
+  "homepage": "http://projects.arpadolasz.com/projects/the-laurel-review",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Arpad Olasz",
+      "homepage": "http://arpadolasz.com"
+    }
+  ],
+  "support": {
+    "email": "arpi@wingsline.com",
+    "issues": "http://projects.arpadolasz.com/projects/the-laurel-review/issues",
+    "wiki": "http://projects.arpadolasz.com/projects/the-laurel-review/wiki"
+  },
+  "slider_change": 7000,
+  "sections": {
+    "page": {
+      "editable": ["content"],
+      "editable_optional": [
+        "aside",
+        "footer"
+      ]
+    },
+    "news": {
+      "editable": [
+        "headline",
+        "content"
+      ],
+      "editable_optional": [
+        "aside",
+        "footer"
+      ]
+    }
+  }
+}

@@ -1,0 +1,2 @@
+::1 [2020-02-04 09:57:23] ERROR "[2] require(C:\Xampp1\xampp\htdocs\USSA\app/themes/default/pages/index1.php): failed to open stream: No such file or directory [C:\Xampp1\xampp\htdocs\USSA\app\vendor\wingsline\storyframework\src\Story\View.php] (71)"
+::1 [2020-02-04 09:57:23] ERROR "require(): Failed opening required 'C:\Xampp1\xampp\htdocs\USSA\app/themes/default/pages/index1.php' (include_path='C:\Xampp1\xampp\php\PEAR') [C:\Xampp1\xampp\htdocs\USSA\app\vendor\wingsline\storyframework\src\Story\View.php] (71)"

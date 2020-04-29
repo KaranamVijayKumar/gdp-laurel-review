@@ -1,0 +1,169 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: StoryMVC\n"
+"POT-Creation-Date: 2014-07-25 13:57-0600\n"
+"PO-Revision-Date: 2014-12-02 12:00-0600\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.10\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: en_US\n"
+
+msgid "{field} must be at least than %s"
+msgid_plural "{field} must be at least than %s[p]"
+msgstr[0] "{field} must be at least %s in length."
+msgstr[1] "{field}s must be at least %s in length."
+
+# name and email change
+msgid "Name is required"
+msgstr "Name is required."
+
+msgid "Name must contain less than 200 characters"
+msgstr "Name cannot be more than 200 characters."
+
+msgid "Email is required"
+msgstr "Email address is required."
+
+msgid "Email address is not a valid email address"
+msgstr "Email address is not valid."
+
+msgid "Verify is required"
+msgstr "Verify Email address is required."
+
+msgid "Verify is not a valid email address"
+msgstr "Verify Email address is not valid."
+
+msgid "Verify must be the same as 'email'"
+msgstr "Email addresses must match."
+
+# Password change
+msgid "Current Password is required"
+msgstr "Current Password is required."
+
+msgid "Invalid Current Password supplied."
+msgstr "Invalid password supplied."
+
+msgid "New Password is required"
+msgstr "New Password is required."
+
+msgid "New Password must contain greater than 8 characters"
+msgstr "New Password must have at least 8 characters."
+
+msgid "New Password must contain less than 200 characters"
+msgstr "New Password cannot be more than 200 characters."
+
+msgid "Verify New Password is required"
+msgstr "Verify New Password is required."
+
+# Contact information
+msgid "Address is required"
+msgstr "Address Line 1 is required."
+
+msgid "City is required"
+msgstr "City is required."
+
+msgid "State is required"
+msgstr "State / Province / Region is required."
+
+msgid "Zip is required"
+msgstr "ZIP / Postal Code is required."
+
+msgid "Phone is required"
+msgstr "Phone Number is required."
+
+msgid "Address must contain less than 200 characters"
+msgstr "Address Line 1 cannot be more than 200 characters."
+
+msgid "Address2 must contain less than 200 characters"
+msgstr "Address Line 2 cannot be more than 200 characters."
+
+msgid "City must contain less than 200 characters"
+msgstr "City  cannot be more than 200 characters."
+
+msgid "State must contain less than 200 characters"
+msgstr "State / Province / Region  cannot be more than 200 characters."
+
+msgid "Zip must contain less than 200 characters"
+msgstr "ZIP / Postal Code  cannot be more than 200 characters."
+
+msgid "Country must contain less than 200 characters"
+msgstr "Country  cannot be more than 200 characters."
+
+msgid "Phone must contain less than 200 characters"
+msgstr "Phone Number  cannot be more than 200 characters."
+
+# create user
+msgid "Verify Email must be the same as 'email'"
+msgstr "Email addresses must match."
+
+msgid "Verify Email is required"
+msgstr "Verify Email is required."
+
+msgid "Verify Password must be the same as 'password'"
+msgstr "Passwords must match."
+
+msgid "Password must contain greater than 8 characters"
+msgstr "Password must have at least 8 characters."
+
+msgid "Password must contain less than 200 characters"
+msgstr "Password cannot be more than 200 characters."
+
+msgid "Email is not a valid email address"
+msgstr "Email address is not valid."
+
+msgid "Password is required"
+msgstr "Password is required."
+
+msgid "Verify Password is required"
+msgstr "Verify Password is required."
+
+# submission categories
+msgid "Guidelines must contain less than 65535 characters"
+msgstr "Guidelines cannot be more than 65535 characters."
+
+msgid "Size Limit must contain less than 200 characters"
+msgstr "Size Limit cannot be more than 200 characters."
+
+msgid "Amount is required"
+msgstr "Amount is required."
+
+msgid "Amount must be at least than 0.01"
+msgstr "Amount must greater then or equal to 0.01."
+
+msgid "Amount must be no more than 9999999999.99"
+msgstr "Amount must be lower then or equal to 9999999999.99."
+
+msgid "Subject is required"
+msgstr "Subject is required."
+
+msgid "Message is required"
+msgstr "Message is required."
+
+msgid "Subject must contain less than 200 characters"
+msgstr "Subject cannot be more than 200 characters."
+
+msgid "Message must contain less than 65535 characters"
+msgstr "Message cannot be more than 65535 characters."
+
+# title
+msgid "Title is required"
+msgstr "Title is required."
+
+msgid "Title must contain less than 200 characters"
+msgstr "Title cannot be more than 200 characters."
+
+# status
+msgid "Status contains invalid value"
+msgstr "Status contains invalid value."
+
+# newsletter
+msgid "Newsletter contains invalid value"
+msgstr "Newsletter contains invalid value."
+
+# issues
+msgid "Short Description must contain less than 65535 characters"
+msgstr "Short Description cannot be more than 65535 characters."

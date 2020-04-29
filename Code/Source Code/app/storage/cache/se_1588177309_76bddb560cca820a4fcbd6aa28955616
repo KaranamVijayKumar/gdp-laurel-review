@@ -1,0 +1,14 @@
+s:490:"
+    <!-- .featured-issue -->
+    <div class="featured-issue u-mb">
+        <div class="featured-issue__title">
+            Testing Sample One        </div>
+        <div class="featured-issue__body">
+            <a href="http://qua.laurelreview.org/issues/testing-sample-one">
+                <img src="http://qua.laurelreview.org/uploads/issues/downloadjpg123216414.jpg" alt="" class="featured-issue__img">
+
+            </a>
+                    </div>
+    </div><!-- /.featured-issue -->
+
+";

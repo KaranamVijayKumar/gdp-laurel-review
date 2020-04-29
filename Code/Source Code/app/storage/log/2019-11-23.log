@@ -1,0 +1,2 @@
+40.77.167.20 [2019-11-23 09:33:17] ERROR "[2] Error while sending QUERY packet. PID=15292 [/home/laurelre/app/vendor/wingsline/storyframework/src/Story/DB.php] (167)"
+40.77.167.20 [2019-11-23 09:33:17] ERROR "SQLSTATE[HY000]: General error: 2006 MySQL server has gone away [/home/laurelre/app/vendor/wingsline/storyframework/src/Story/DB.php] (167)"

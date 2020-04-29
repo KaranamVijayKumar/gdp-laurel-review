@@ -1,0 +1,1 @@
+209.190.113.85 [2017-01-13 15:50:54] ERROR "SQLSTATE[40001]: Serialization failure: 1213 Deadlock found when trying to get lock; try restarting transaction [/home/laurelre/app/vendor/wingsline/storyframework/src/Story/DB.php] (167)"

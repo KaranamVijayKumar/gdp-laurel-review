@@ -1,0 +1,76 @@
+{
+  "name": "wingsline/laurel-review",
+  "type": "project",
+  "prefer-stable": true,
+  "description": "The Laurel Review web site, based on StoryMVC framework",
+  "version": "1.0",
+  "keywords": [
+    "laurel",
+    "review",
+    "web",
+    "site",
+    "storyframework",
+    "story",
+    "mvc"
+  ],
+  "homepage": "http://projects.arpadolasz.com/projects/the-laurel-review",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Arpad Olasz",
+      "homepage": "http://arpadolasz.com"
+    }
+  ],
+  "support": {
+    "email": "arpi@wingsline.com",
+    "issues": "http://projects.arpadolasz.com/projects/the-laurel-review/issues",
+    "wiki": "http://projects.arpadolasz.com/projects/the-laurel-review/wiki"
+  },
+  "require": {
+    "php": ">=5.3.7",
+    "ext-intl": "*",
+    "ext-mcrypt": "*",
+    "ext-iconv": "*",
+    "ext-gettext": "*",
+    "ext-curl": "*",
+    "mike182uk/paypal-ipn-listener": "~2.0",
+    "html2text/html2text": "~2.0",
+    "nesbot/carbon": "~1.14",
+    "wingsline/storyframework": "~1.0.0",
+    "wingsline/storyengine": "~1.0.1",
+    "wingsline/storyspamprotector": "~0.1",
+    "wingsline/storycart": "~1.0.0",
+    "intervention/image": "2.2.*",
+    "vlucas/phpdotenv": "~1.0",
+    "michelf/php-markdown": "~1.5.0",
+    "goodby/csv": "dev-master#b289ca3e3f6ad3c76b7d8c3bef3effd0232ca13a"
+  },
+  "require-dev": {
+  },
+  "autoload": {
+    "files": [
+      "Project/events.php",
+      "Project/helpers.php",
+      "Project/ioc_bindings.php"
+    ],
+    "psr-4": {
+      "Project\\": "Project/"
+    },
+    "classmap": [
+      "Project/Support/Vendor/Container.php",
+      "Project/Support/Vendor/PHPMailer/class.phpmailer.php",
+      "Project/Support/Vendor/PHPMailer/class.pop3.php",
+      "Project/Support/Vendor/PHPMailer/class.smtp.php"
+    ]
+  },
+  "config": {
+    "preferred-install": "dist",
+    "bin-dir": "vendor/bin/"
+  },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "http://satis.app"
+    }
+  ]
+}

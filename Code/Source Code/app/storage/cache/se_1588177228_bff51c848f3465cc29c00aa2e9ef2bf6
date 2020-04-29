@@ -1,0 +1,24 @@
+s:1069:"    <header class="masthead">
+        <div class="container h-100">
+            <div class="row h-100 align-items-center justify-content-center text-center">
+		  
+		   <div class="col-lg-4 align-self-end">
+		   <img src="http://qua.laurelreview.org/themes/laurelv1/img/LaurelImg1.jpeg" alt="" height="200" width="200">
+		   </div>
+		  	       				
+                    <div class="col-lg-10 align-self-end">
+					
+                        <h1 class="text-uppercase text-white font-weight-bold">
+<a href="http://qua.laurelreview.org/issues/testing-sample-one">Testing Sample One</a></h1>
+                        <hr class="divider my-4">
+                    </div>
+                    <div class="col-lg-8 align-self-baseline">
+                        <p class="text-white-75 font-weight-light mb-5"><p>Spring  2019</p></p>
+                        
+<a class="btn btn-primary btn-xl js-scroll-trigger" href="http://qua.laurelreview.org/issues/testing-sample-one">Find Out More</a>                    </div>
+                            </div>
+        </div>
+    </header>
+
+
+";

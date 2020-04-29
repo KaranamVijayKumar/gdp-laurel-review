@@ -1,0 +1,1 @@
+208.110.71.26 [2017-09-13 03:39:09] ERROR "Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. [Unknown] (0)"

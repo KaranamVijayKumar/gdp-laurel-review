@@ -1,0 +1,88 @@
+[05-Feb-2020 04:32:31 America/Los_Angeles] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)' in /home/laurelre/qua.laurelreview.org.laurelreview.org/app/vendor/wingsline/storyframework/src/Story/DB.php:199
+Stack trace:
+#0 /home/laurelre/qua.laurelreview.org.laurelreview.org/app/vendor/wingsline/storyframework/src/Story/DB.php(199): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/laurelre/qua.laurelreview.org.laurelreview.org/app/vendor/wingsline/storyframework/src/Story/DB.php(151): Story\DB->connect()
+#2 /home/laurelre/qua.laurelreview.org.laurelreview.org/app/vendor/wingsline/storyframework/src/Story/DB.php(241): Story\DB->query('SELECT `name`, ...', NULL)
+#3 /home/laurelre/qua.laurelreview.org.laurelreview.org/app/vendor/wingsline/storyframework/src/Story/helpers.php(102): Story\DB->fetch('SELECT `name`, ...')
+#4 /home/laurelre/qua.laurelreview.org.laurelreview.org/app/start/bootstrap.php(135): config('theme', 'default')
+#5 /home/laurelre/qua.laurelrevi in /home/laurelre/qua.laurelreview.org.laurelreview.org/app/vendor/wingsline/storyframework/src/Story/DB.php on line 199
+[05-Feb-2020 04:44:59 America/Los_Angeles] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)' in /home/laurelre/qua.laurelreview.org.laurelreview.org/app/vendor/wingsline/storyframework/src/Story/DB.php:199
+Stack trace:
+#0 /home/laurelre/qua.laurelreview.org.laurelreview.org/app/vendor/wingsline/storyframework/src/Story/DB.php(199): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/laurelre/qua.laurelreview.org.laurelreview.org/app/vendor/wingsline/storyframework/src/Story/DB.php(151): Story\DB->connect()
+#2 /home/laurelre/qua.laurelreview.org.laurelreview.org/app/vendor/wingsline/storyframework/src/Story/DB.php(241): Story\DB->query('SELECT `name`, ...', NULL)
+#3 /home/laurelre/qua.laurelreview.org.laurelreview.org/app/vendor/wingsline/storyframework/src/Story/helpers.php(102): Story\DB->fetch('SELECT `name`, ...')
+#4 /home/laurelre/qua.laurelreview.org.laurelreview.org/app/start/bootstrap.php(135): config('theme', 'default')
+#5 /home/laurelre/qua.laurelrevi in /home/laurelre/qua.laurelreview.org.laurelreview.org/app/vendor/wingsline/storyframework/src/Story/DB.php on line 199
+[05-Feb-2020 04:45:01 America/Los_Angeles] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)' in /home/laurelre/qua.laurelreview.org.laurelreview.org/app/vendor/wingsline/storyframework/src/Story/DB.php:199
+Stack trace:
+#0 /home/laurelre/qua.laurelreview.org.laurelreview.org/app/vendor/wingsline/storyframework/src/Story/DB.php(199): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/laurelre/qua.laurelreview.org.laurelreview.org/app/vendor/wingsline/storyframework/src/Story/DB.php(151): Story\DB->connect()
+#2 /home/laurelre/qua.laurelreview.org.laurelreview.org/app/vendor/wingsline/storyframework/src/Story/DB.php(241): Story\DB->query('SELECT `name`, ...', NULL)
+#3 /home/laurelre/qua.laurelreview.org.laurelreview.org/app/vendor/wingsline/storyframework/src/Story/helpers.php(102): Story\DB->fetch('SELECT `name`, ...')
+#4 /home/laurelre/qua.laurelreview.org.laurelreview.org/app/start/bootstrap.php(135): config('theme', 'default')
+#5 /home/laurelre/qua.laurelrevi in /home/laurelre/qua.laurelreview.org.laurelreview.org/app/vendor/wingsline/storyframework/src/Story/DB.php on line 199
+[05-Feb-2020 04:46:02 America/Los_Angeles] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)' in /home/laurelre/qua.laurelreview.org.laurelreview.org/app/vendor/wingsline/storyframework/src/Story/DB.php:199
+Stack trace:
+#0 /home/laurelre/qua.laurelreview.org.laurelreview.org/app/vendor/wingsline/storyframework/src/Story/DB.php(199): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/laurelre/qua.laurelreview.org.laurelreview.org/app/vendor/wingsline/storyframework/src/Story/DB.php(151): Story\DB->connect()
+#2 /home/laurelre/qua.laurelreview.org.laurelreview.org/app/vendor/wingsline/storyframework/src/Story/DB.php(241): Story\DB->query('SELECT `name`, ...', NULL)
+#3 /home/laurelre/qua.laurelreview.org.laurelreview.org/app/vendor/wingsline/storyframework/src/Story/helpers.php(102): Story\DB->fetch('SELECT `name`, ...')
+#4 /home/laurelre/qua.laurelreview.org.laurelreview.org/app/start/bootstrap.php(135): config('theme', 'default')
+#5 /home/laurelre/qua.laurelrevi in /home/laurelre/qua.laurelreview.org.laurelreview.org/app/vendor/wingsline/storyframework/src/Story/DB.php on line 199
+[05-Feb-2020 04:46:25 America/Los_Angeles] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)' in /home/laurelre/qua.laurelreview.org.laurelreview.org/app/vendor/wingsline/storyframework/src/Story/DB.php:199
+Stack trace:
+#0 /home/laurelre/qua.laurelreview.org.laurelreview.org/app/vendor/wingsline/storyframework/src/Story/DB.php(199): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/laurelre/qua.laurelreview.org.laurelreview.org/app/vendor/wingsline/storyframework/src/Story/DB.php(151): Story\DB->connect()
+#2 /home/laurelre/qua.laurelreview.org.laurelreview.org/app/vendor/wingsline/storyframework/src/Story/DB.php(241): Story\DB->query('SELECT `name`, ...', NULL)
+#3 /home/laurelre/qua.laurelreview.org.laurelreview.org/app/vendor/wingsline/storyframework/src/Story/helpers.php(102): Story\DB->fetch('SELECT `name`, ...')
+#4 /home/laurelre/qua.laurelreview.org.laurelreview.org/app/start/bootstrap.php(135): config('theme', 'default')
+#5 /home/laurelre/qua.laurelrevi in /home/laurelre/qua.laurelreview.org.laurelreview.org/app/vendor/wingsline/storyframework/src/Story/DB.php on line 199
+[12-Feb-2020 08:40:36 America/Chicago] PHP Fatal error:  require(): Failed opening required '/home/laurelre/qua.laurelreview.org.laurelreview.org/app/themes/default/admin/issues/createV1.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/laurelre/qua.laurelreview.org.laurelreview.org/app/vendor/wingsline/storyframework/src/Story/View.php on line 71
+[12-Feb-2020 08:42:05 America/Chicago] PHP Fatal error:  require(): Failed opening required '/home/laurelre/qua.laurelreview.org.laurelreview.org/app/themes/default/admin/issues/createV1.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/laurelre/qua.laurelreview.org.laurelreview.org/app/vendor/wingsline/storyframework/src/Story/View.php on line 71
+[12-Feb-2020 08:42:43 America/Chicago] PHP Fatal error:  require(): Failed opening required '/home/laurelre/qua.laurelreview.org.laurelreview.org/app/themes/default/admin/issues/createV1.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/laurelre/qua.laurelreview.org.laurelreview.org/app/vendor/wingsline/storyframework/src/Story/View.php on line 71
+[12-Feb-2020 08:42:44 America/Chicago] PHP Fatal error:  require(): Failed opening required '/home/laurelre/qua.laurelreview.org.laurelreview.org/app/themes/default/admin/issues/createV1.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/laurelre/qua.laurelreview.org.laurelreview.org/app/vendor/wingsline/storyframework/src/Story/View.php on line 71
+[12-Feb-2020 08:42:44 America/Chicago] PHP Fatal error:  require(): Failed opening required '/home/laurelre/qua.laurelreview.org.laurelreview.org/app/themes/default/admin/issues/createV1.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/laurelre/qua.laurelreview.org.laurelreview.org/app/vendor/wingsline/storyframework/src/Story/View.php on line 71
+[12-Feb-2020 08:42:44 America/Chicago] PHP Fatal error:  require(): Failed opening required '/home/laurelre/qua.laurelreview.org.laurelreview.org/app/themes/default/admin/issues/createV1.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/laurelre/qua.laurelreview.org.laurelreview.org/app/vendor/wingsline/storyframework/src/Story/View.php on line 71
+[12-Feb-2020 08:42:45 America/Chicago] PHP Fatal error:  require(): Failed opening required '/home/laurelre/qua.laurelreview.org.laurelreview.org/app/themes/default/admin/issues/createV1.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/laurelre/qua.laurelreview.org.laurelreview.org/app/vendor/wingsline/storyframework/src/Story/View.php on line 71
+[18-Feb-2020 08:02:02 America/Chicago] PHP Fatal error:  Class 'Project\Support\Podcasts\validator' not found in /home/laurelre/qua.laurelreview.org.laurelreview.org/app/Project/Models/Podcasts.php on line 230
+[18-Feb-2020 08:03:27 America/Chicago] PHP Fatal error:  Class 'Project\Support\Podcasts\validator' not found in /home/laurelre/qua.laurelreview.org.laurelreview.org/app/Project/Models/Podcasts.php on line 230
+[28-Feb-2020 08:23:41 America/Chicago] PHP Fatal error:  Class 'Project\Support\Podcasts\validator' not found in /home/laurelre/qua.laurelreview.org.laurelreview.org/app/Project/Models/Aboutuss.php on line 230
+[28-Feb-2020 08:24:12 America/Chicago] PHP Fatal error:  Class 'Project\Support\Podcasts\validator' not found in /home/laurelre/qua.laurelreview.org.laurelreview.org/app/Project/Models/Aboutuss.php on line 230
+[28-Feb-2020 08:24:33 America/Chicago] PHP Fatal error:  Class 'Project\Support\Podcasts\validator' not found in /home/laurelre/qua.laurelreview.org.laurelreview.org/app/Project/Models/Aboutuss.php on line 230
+[28-Feb-2020 08:26:45 America/Chicago] PHP Fatal error:  Class 'Project\Support\Podcasts\validator' not found in /home/laurelre/qua.laurelreview.org.laurelreview.org/app/Project/Models/Aboutuss.php on line 230
+[28-Feb-2020 09:51:54 America/Los_Angeles] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1044] Access denied for user 'laurelre_site'@'localhost' to database 'laurelre_dev'' in /home/laurelre/qua.laurelreview.org.laurelreview.org/app/vendor/wingsline/storyframework/src/Story/DB.php:188
+Stack trace:
+#0 /home/laurelre/qua.laurelreview.org.laurelreview.org/app/vendor/wingsline/storyframework/src/Story/DB.php(188): PDO->__construct('mysql:host=loca...', 'laurelre_site', 'oLdrGUXucriTBHw...', Array)
+#1 /home/laurelre/qua.laurelreview.org.laurelreview.org/app/vendor/wingsline/storyframework/src/Story/DB.php(151): Story\DB->connect()
+#2 /home/laurelre/qua.laurelreview.org.laurelreview.org/app/vendor/wingsline/storyframework/src/Story/DB.php(228): Story\DB->query('SELECT `name`, ...', NULL)
+#3 /home/laurelre/qua.laurelreview.org.laurelreview.org/app/vendor/wingsline/storyframework/src/Story/helpers.php(102): Story\DB->fetch('SELECT `name`, ...')
+#4 /home/laurelre/qua.laurelreview.org.laurelreview.org/app/start/bootstrap.php(135): config('th in /home/laurelre/qua.laurelreview.org.laurelreview.org/app/vendor/wingsline/storyframework/src/Story/DB.php on line 188
+[28-Feb-2020 09:54:05 America/Los_Angeles] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1044] Access denied for user 'laurelre_site'@'localhost' to database 'laurelre_dev'' in /home/laurelre/qua.laurelreview.org.laurelreview.org/app/vendor/wingsline/storyframework/src/Story/DB.php:188
+Stack trace:
+#0 /home/laurelre/qua.laurelreview.org.laurelreview.org/app/vendor/wingsline/storyframework/src/Story/DB.php(188): PDO->__construct('mysql:host=loca...', 'laurelre_site', 'oLdrGUXucriTBHw...', Array)
+#1 /home/laurelre/qua.laurelreview.org.laurelreview.org/app/vendor/wingsline/storyframework/src/Story/DB.php(151): Story\DB->connect()
+#2 /home/laurelre/qua.laurelreview.org.laurelreview.org/app/vendor/wingsline/storyframework/src/Story/DB.php(228): Story\DB->query('SELECT `name`, ...', NULL)
+#3 /home/laurelre/qua.laurelreview.org.laurelreview.org/app/vendor/wingsline/storyframework/src/Story/helpers.php(102): Story\DB->fetch('SELECT `name`, ...')
+#4 /home/laurelre/qua.laurelreview.org.laurelreview.org/app/start/bootstrap.php(135): config('th in /home/laurelre/qua.laurelreview.org.laurelreview.org/app/vendor/wingsline/storyframework/src/Story/DB.php on line 188
+[28-Feb-2020 10:43:04 America/Los_Angeles] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1044] Access denied for user 'laurelre_site'@'localhost' to database 'laurelre_dev'' in /home/laurelre/qua.laurelreview.org.laurelreview.org/app/vendor/wingsline/storyframework/src/Story/DB.php:188
+Stack trace:
+#0 /home/laurelre/qua.laurelreview.org.laurelreview.org/app/vendor/wingsline/storyframework/src/Story/DB.php(188): PDO->__construct('mysql:host=loca...', 'laurelre_site', 'oLdrGUXucriTBHw...', Array)
+#1 /home/laurelre/qua.laurelreview.org.laurelreview.org/app/vendor/wingsline/storyframework/src/Story/DB.php(151): Story\DB->connect()
+#2 /home/laurelre/qua.laurelreview.org.laurelreview.org/app/vendor/wingsline/storyframework/src/Story/DB.php(228): Story\DB->query('SELECT `name`, ...', NULL)
+#3 /home/laurelre/qua.laurelreview.org.laurelreview.org/app/vendor/wingsline/storyframework/src/Story/helpers.php(102): Story\DB->fetch('SELECT `name`, ...')
+#4 /home/laurelre/qua.laurelreview.org.laurelreview.org/app/start/bootstrap.php(135): config('th in /home/laurelre/qua.laurelreview.org.laurelreview.org/app/vendor/wingsline/storyframework/src/Story/DB.php on line 188
+[28-Feb-2020 13:38:14 America/Chicago] PHP Fatal error:  Class 'Project\Support\Podcasts\validator' not found in /home/laurelre/qua.laurelreview.org.laurelreview.org/app/Project/Models/Aboutuss.php on line 230
+[28-Feb-2020 14:23:18 America/Chicago] PHP Fatal error:  Class '\Project\Controllers\Admin\Chapbooks\CreateV1' not found in /home/laurelre/qua.laurelreview.org.laurelreview.org/app/vendor/wingsline/storyframework/src/Story/Dispatch.php on line 76
+[28-Feb-2020 14:24:07 America/Chicago] PHP Fatal error:  require(): Failed opening required '/home/laurelre/qua.laurelreview.org.laurelreview.org/app/themes/default/admin/chapbooks/createv1.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/laurelre/qua.laurelreview.org.laurelreview.org/app/vendor/wingsline/storyframework/src/Story/View.php on line 71
+[28-Feb-2020 14:24:50 America/Chicago] PHP Fatal error:  require(): Failed opening required '/home/laurelre/qua.laurelreview.org.laurelreview.org/app/themes/default/admin/chapbooks/createv1.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/laurelre/qua.laurelreview.org.laurelreview.org/app/vendor/wingsline/storyframework/src/Story/View.php on line 71
+[28-Feb-2020 14:25:33 America/Chicago] PHP Fatal error:  require(): Failed opening required '/home/laurelre/qua.laurelreview.org.laurelreview.org/app/themes/default/admin/chapbooks/createv1.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/laurelre/qua.laurelreview.org.laurelreview.org/app/vendor/wingsline/storyframework/src/Story/View.php on line 71
+[01-Mar-2020 11:30:19 America/Los_Angeles] PHP Warning:  fopen(issues.csv): failed to open stream: No such file or directory in /home/laurelre/qua.laurelreview.org.laurelreview.org/issuesMapping.php on line 3
+[01-Mar-2020 11:42:58 America/Los_Angeles] PHP Fatal error:  Cannot use [] for reading in /home/laurelre/qua.laurelreview.org.laurelreview.org/issuesMapping.php on line 8
+[01-Mar-2020 11:46:18 America/Los_Angeles] PHP Parse error:  syntax error, unexpected ']', expecting ')' in /home/laurelre/qua.laurelreview.org.laurelreview.org/issuesMapping.php on line 11
+[01-Mar-2020 11:46:32 America/Los_Angeles] PHP Fatal error:  Function name must be a string in /home/laurelre/qua.laurelreview.org.laurelreview.org/issuesMapping.php on line 11
+[01-Mar-2020 11:46:42 America/Los_Angeles] PHP Fatal error:  Function name must be a string in /home/laurelre/qua.laurelreview.org.laurelreview.org/issuesMapping.php on line 11
+[01-Mar-2020 11:47:12 America/Los_Angeles] PHP Fatal error:  Function name must be a string in /home/laurelre/qua.laurelreview.org.laurelreview.org/issuesMapping.php on line 12
+[01-Mar-2020 11:47:21 America/Los_Angeles] PHP Fatal error:  Function name must be a string in /home/laurelre/qua.laurelreview.org.laurelreview.org/issuesMapping.php on line 12
+[01-Mar-2020 11:47:28 America/Los_Angeles] PHP Fatal error:  Function name must be a string in /home/laurelre/qua.laurelreview.org.laurelreview.org/issuesMapping.php on line 12
+[01-Mar-2020 11:47:38 America/Los_Angeles] PHP Fatal error:  Function name must be a string in /home/laurelre/qua.laurelreview.org.laurelreview.org/issuesMapping.php on line 12
