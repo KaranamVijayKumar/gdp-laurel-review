@@ -1,0 +1,15 @@
+<?php
+/**
+ * File: InvalidPasswordReminderException.php
+ * Created: 27-12-2014
+ *
+ * Description
+ *
+ * @author   Arpad Olasz <arpi@wingsline.com>
+ */
+
+namespace Project\Support\PasswordReminder;
+
+class InvalidPasswordReminderException extends \Exception
+{
+}
