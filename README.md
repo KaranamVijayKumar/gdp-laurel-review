@@ -10,6 +10,11 @@ This repository is created as part of the GDP group project by Spring 2020 batch
 - Ravi Kumar Atluri
 - Manasa Goriparthi
 
+# Clients & Instructor
+
+- Clients: Luke Rolfes & John Gallaher
+- Instructor: Dr. Aziz Fellah
+
 # Links
 
 - [Source](https://github.com/KaranamVijayKumar/gdp-laurel-review)
