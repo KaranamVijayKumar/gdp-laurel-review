@@ -1,5 +1,5 @@
 # gdp-laurel-review
-This repository is created for the GDP group project of Spring 2020 batch.
+This repository is created as part of the GDP group project by Spring 2020 batch of MS-ACS students.
 
 # Team Members
 
@@ -22,6 +22,16 @@ This repository is created for the GDP group project of Spring 2020 batch.
 # About the Laurel Review
 
 The Laurel Review is a biannual print magazine seeking submissions of poetry, fiction, creative nonfiction, script, review, and those that blur the lines between genres. They seek both established and new voices in the writing world, and  are especially interested in writing by those whose identities have been historically under-represented. Submitters living outside of the United States are encouraged to submit. Translations in various genres are also of interest. All accepted submitters will receive two copies of the issue in which their piece(s) appear/s.
+
+# Problem Statement
+
+Greentower Press (The Laurel Review) is an organization within Northwest Missouri State University. Each year they publish two issues from their national literary magazine (The Laurel Review) along with their annual chapbook contest winner. Some years ago, they had their website re-done; however, their needs have expanded and changed since this revamp took place. Currently, their site uses a strict user interface that does not allow us to add or remove pages, or customize site in any way. Many of the features programmed into the site such as a submission manager, newsletter, and user accounts do not fit the current needs of our users, and much of our site’s functionality is extraneous to their purposes. They are hoping to scrap this version of the website and move forward with a newer, more-editable version. We addressed their issues and deployed a new site with requested functionalities.
+
+# Link to the Deployed Site
+
+[The Laurel Review](http://laurelreview.org/)
+
+
 
 
 
