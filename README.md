@@ -18,6 +18,7 @@ This repository is created as part of the GDP group project by Spring 2020 batch
 - [Final Project Report](https://github.com/KaranamVijayKumar/gdp-laurel-review/blob/master/Laurel%20Review%20Final%20Project%20Report.docx)
 - [Code Folder](https://github.com/KaranamVijayKumar/gdp-laurel-review/tree/master/Code)
 - [Documentation Folder](https://github.com/KaranamVijayKumar/gdp-laurel-review/tree/master/Documentation)
+- [Deployed Site](http://laurelreview.org/)
 
 # About the Laurel Review
 
